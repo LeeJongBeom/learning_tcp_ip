@@ -1,0 +1,9 @@
+
+hello git
+
+1. git init			// make local repository 
+2. git status		// git 상태확인
+3. git config --list
+4. git config --unset --global user.name		// config 이름 이메일 삭제
+5. git config --unset --global user.email
+6. git config --global user.name " "		//이름 넣기
