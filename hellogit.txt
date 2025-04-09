@@ -7,3 +7,17 @@ hello git
 4. git config --unset --global user.name		// config 이름 이메일 삭제
 5. git config --unset --global user.email
 6. git config --global user.name " "		//이름 넣기
+7. git commit -m "commit"		//올리기 보낼 메세지
+8. git remote add origin git url	//git url 연결
+9. git remote -v	//로컬하고 원격 연결 확인
+10. git branch		//브랜치 확인
+11. git branch -m main		//branch를 main으로 바꿈
+12. git push origin main //파일 보내기
+
+// 공개키 생성
+
+13. ls ~/.ssh
+14. ssh-keygen -t rsa -b 4096 -C "belltiger418@gmail.com"		//id_rsa, id_rsa.pub 파일생성
+15. cat ~/.ssh/id_rsa.pub		//공개키 보기
+16. 복사해서 github ssh키 넣기
+
